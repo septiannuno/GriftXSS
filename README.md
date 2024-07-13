@@ -26,7 +26,7 @@ GriftXSS is a tool designed for automated scanning and detection of Cross-Site S
 
 2. Clone the repository:
    git clone https://github.com/septiannuno/GriftXSS.git
-   cd NnXSS
+   cd GriftXSS
 
 3. Create a virtual environment (optional but recommended):
    python -m venv venv
@@ -54,7 +54,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Disclaimer
 
-NnXSS is intended for educational and ethical testing purposes only. Always obtain proper authorization before scanning any web applications you do not own or have explicit permission to test.
+GriftXSS is intended for educational and ethical testing purposes only. Always obtain proper authorization before scanning any web applications you do not own or have explicit permission to test.
 
 ## Contact
 
