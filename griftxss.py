@@ -139,7 +139,7 @@ def read_payloads(file_path):
         return []
     
     try:
-        with open(file_path, 'r') as f:
+        with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
             return [line.strip() for line in f if line.strip()]
     except FileNotFoundError:
         log(f"Payload file not found: {file_path}", "ERROR")
