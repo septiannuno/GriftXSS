@@ -37,15 +37,15 @@ GriftXSS is a tool designed for automated scanning and detection of Cross-Site S
 
 ## Usage
 
-To run NnXSS, use the following command:
+To run GriftXSS, use the following command:
 
-python main.py [options] <target_url>
+python griftxss.py -u <target_url> [option]
 
 For example:
-python main.py https://example.com
+python griftxss.py https://example.com
 
 For a list of available options, use:
-python main.py --help
+python griftxss.py --help
 
 
 ## License
